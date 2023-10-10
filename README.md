@@ -1,7 +1,7 @@
 # port-ferry-ts
 
 ## Overview
-port-ferry is a deve utility designed to assist with local HTTP request logging and forwarding between local ports. This tool is not recommended for production use.
+port-ferry is a dev utility designed to assist with local HTTP request logging and forwarding between local ports. This tool is not recommended for production use.
 
 ## Installation
 Clone the Repository
