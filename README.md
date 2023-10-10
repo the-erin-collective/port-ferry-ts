@@ -26,9 +26,11 @@ Configuration settings for the application are stored in appConfig.json. This fi
 Example appConfig.json
 ```
 {
-  "portMappings": "./portMappings.json",
-  "logFolder": "./logs/",
-  "errorCodes": [400, 404, 405]
+    "portMappings": "./portMappings.json",
+    "internalErrorLogs": "./port-ferry.log",
+    "logFolder": "./logs/",
+    "statusCodesToLog": [400, 404, 405],
+    "listenPort" : 80
 }
 ```
 
@@ -37,8 +39,8 @@ Port mappings, specifying which route maps to which target port, are defined in 
 Example portMappings.json
 ```
 {
-  "/44300/": "http://localhost:44300",
-  "/44301/": "http://localhost:44301"
+    "/3000": "http://localhost:3000",
+    "/3001": "http://localhost:3001"
 }
 ```
 
