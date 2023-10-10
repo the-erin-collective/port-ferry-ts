@@ -1,0 +1,7 @@
+{
+    "portMappings": "./portMappings.json",
+    "internalErrorLogs": "./port-ferry.log",
+    "logFolder": "./logs/",
+    "statusCodesToLog": [400, 404, 405, 500],
+    "listenPort" : 80
+}
