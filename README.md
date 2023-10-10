@@ -20,7 +20,7 @@ Start the Application
 
 `npm start`
 
-Configuration
+## Configuration
 Configuration settings for the application are stored in appConfig.json. This file allows you to specify the location of the portMappings.json file, specify the directory for log files, and identify which status codes should be logged.
 
 Example appConfig.json
